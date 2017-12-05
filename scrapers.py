@@ -45,7 +45,6 @@ def get_symbol_id(paper):
         'Referer': 'https://www.investing.com/',
         #'Accept-Encoding': 'gzip, deflate, br',
         'Accept-Language': 'en-US,en;q=0.9',
-        'Cookie': 'adBlockerNewUserDomains=1512419337; __qca=P0-1205975076-1512419328308; PHPSESSID=f1ffr10h1vuf1punulotug1o67; geoC=IL; StickySession=id.35760618223.344www.investing.com; r_p_s=1; searchedResults=[{"pairId":10893,"link":"/equities/delek-automotive","symbol":"DLEA","name":"Delek%20Automotive%20Systems%20Ltd","type":"Equity%20-%20Tel%20Aviv","flag":"Israel"}]; gtmFired=OK; editionPostpone=1512419467810; SideBlockUser=a%3A2%3A%7Bs%3A10%3A%22stack_size%22%3Ba%3A1%3A%7Bs%3A11%3A%22last_quotes%22%3Bi%3A8%3B%7Ds%3A6%3A%22stacks%22%3Ba%3A1%3A%7Bs%3A11%3A%22last_quotes%22%3Ba%3A1%3A%7Bi%3A0%3Ba%3A3%3A%7Bs%3A7%3A%22pair_ID%22%3Bs%3A5%3A%2210893%22%3Bs%3A10%3A%22pair_title%22%3Bs%3A0%3A%22%22%3Bs%3A9%3A%22pair_link%22%3Bs%3A26%3A%22%2Fequities%2Fdelek-automotive%22%3B%7D%7D%7D%7D; _gat_allSitesTracker=1; _gat=1; optimizelySegments=%7B%224225444387%22%3A%22gc%22%2C%224226973206%22%3A%22search%22%2C%224232593061%22%3A%22false%22%2C%225010352657%22%3A%22none%22%7D; optimizelyBuckets=%7B%7D; optimizelyEndUserId=oeu1512419326378r0.6194372907748338; adbBLk=1; nyxDorf=OTtkPjF5NWg%2BYGhmM342PWA0M3Y%2FOWZnYmU%3D; billboardCounter_1=0; _ga=GA1.2.197294575.1512419328; _gid=GA1.2.76900588.1512419328',
     }
     
     data = urllib.parse.urlencode(values)
